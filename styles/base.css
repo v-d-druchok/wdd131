@@ -33,6 +33,7 @@ main {
     align-items: center;
     grid-template-columns: 2fr 1fr;
     margin-top: 40px;
+    max-width: 1920px;
 }
 
 div {
@@ -133,5 +134,5 @@ footer {
     font-size: 1rem;
     color: rgb(58, 60, 0);
     font-weight: 500;
-    padding: 3px;
+    padding: 3  px;
 }
