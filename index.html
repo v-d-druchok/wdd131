@@ -3,9 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+    <meta name="author" content="Volodymyr Druchok">
+    <meta name="description" content="WDD 131 – Dynamic Web Fundamentals - Volodymyr Druchok - Student Home Page">
+    <title>WDD 131 – Dynamic Web Fundamentals - Volodymyr Duchok</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <h1>Volodymyr Druchok</h1>
+   <header>
+        <h1>WDD 131: Dynamic Web Fundamentals - Volodymyr (David) Druchok</h1>
+        <nav>
+            <ul class="navigation">
+                <li><a href="https://www.linkedin.com/in/volodymyr-druchok-2b2156317/" title="LinkedIn">LinkedIn</a></li>
+                <li><a href="https://byupw.instructure.com/" title="Canvas">Canvas</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/23?lang=eng&id=p19-p20#p19" title="Old Testament">Scripture</a></li>
+                <li><a href="#" title="Final Project">Final Project</a></li>
+            </ul>  
+        </nav>
+   </header> 
+   <main>
+        <section class="card">
+            <h2>'Bout Me</h2>
+            <div class="aboutMe">
+                <p class="descriptions" >My name is Volodymyr. I made this Website.
+                    It was difficult, to put, the pieces, together.
+                    But unfortunatеly, something went so wrong.
+                    And now I can't do anything, but write this stupid code.
+                    My name is Volodymyr...</p>
+                <img src="images/me.webp" alt="ME">
+            </div>
+            <div class="aboutAlbert">
+                <img src="images/albert.webp" alt="The Place That I Currently Reside">
+                <p class="descriptions" >Alberta is one of the 13 provinces and territories of Canada.
+                     It is a part of Western Canada and is one of the three prairie provinces.
+                      Alberta borders British Columbia to the west, Saskatchewan to the east,
+                       the Northwest Territories to the north, and the U.S. state of Montana to the south.
+                        It is one of the only two landlocked provinces in Canada.
+                        The eastern part of the province is occupied by the Great Plains, while the western part borders the Rocky Mountains.
+                         The province has a predominantly continental climate but experiences quick temperature changes due to air aridity.</p>
+            </div>
+        </section>
+
+        <section class="card">
+                <h2>Web Developer Resourses</h2>
+                <ul class="links">
+                    <li><a href="https://chatgpt.com/" title="ChatGPT">ChatGPT</a></li>
+                    <li><a href="https://github.com/" title="GitHub">GitHub</a></li>
+                    <li><a href="https://developer.mozilla.org/en-US/" title="MDN">MDN</a></li>
+                    <li><a href="https://stackoverflow.com/questions" title="Stack Overflow">Stack Overflow</a></li>
+                </ul>
+        </section>
+   </main>
+   <footer>
+        <p class="copyright">© <span id="cyear"></span> | Volodymyr Druchok | Alberta, Canada</p>
+        <p class="modifiedDate" id="lastModified"></p>
+   </footer>
 </body>
 </html>
