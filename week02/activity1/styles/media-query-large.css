@@ -1,0 +1,10 @@
+@media screen and (min-width: 500px) {
+    header {
+        background-color: rgb(39, 38, 38);
+        color: azure;
+    }
+
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+}
