@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Volodymyr Druchok">
+    <meta name="description" content="WDD 131 – Dynamic Web Fundamentals - Volodymyr Druchok - Country Page">
+    <title>Country Page</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Ukraine</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-large.webp" media="(min-width: 600px)">
+                <img src="images/hero-small.webp" alt="Ukraine Image Representation">
+            </picture>
+        </div>
+        <section class="data">
+            <h2>Data</h2>
+            <ul>
+                <li>Area: 603,628 sq km</li>
+                <li>Population: 33,443,000</li>
+                <li>Capital: Kyiv</li>
+                <li>Language: Ukrainian</li>
+                <li>Currency: Ukrainian Hryvnia (UAH)</li>
+                <li>Time Zone: UTC+2</li>
+                <li>Calling Code: +380</li>
+                <li>Internet TLD: .ua</li>
+            </ul>
+        </section>
+
+        <section class="weather">
+            <h2>Weather</h2>
+            <img src="images/weather.svg" id="cloudy" alt="Cloudy Weather" height="60" width="60">
+            <ul>
+                <li>Temperature: 7 °C</li>
+                <li>Conditions: Cloudy</li>
+                <li>Wind Speed: 11 km/h</li>
+                <li>Wind Chill: <span id="chill"></span> °C</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p class="copyright">© <span id="cyear"></span> | Volodymyr Druchok | Alberta, Canada</p>
+        <p class="modifiedDate" id="lastModified"></p>
+    </footer>
+    
+</body>
+</html>
