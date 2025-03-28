@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>W04 Learning Activity: Lazyloading Images</title>
+    
+    <link rel="stylesheet" href="styles/lazyload.css">
+    <script src="scripts/lazyload.js" defer></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1>W04 Learning Activity: Lazyloading Images</h1>
+        <div class="images">
+            <picture>
+                <img src="images/jpg1.jpg" alt="owlcat" loading="lazy" width="400" height="600">
+            </picture>
+            <picture>
+                <img src="images/jpg2.jpg" alt="deep frog" loading="lazy" width="400" height="600">
+            </picture>
+            <picture>
+                <img src="images/jpg1.jpg" alt="owlcat" loading="lazy" width="400" height="600">
+            </picture>
+            <picture>
+                <img src="images/jpg2.jpg" alt="deep frog" loading="lazy" width="400" height="600">
+            </picture>
+            <picture>
+                <img src="images/jpg1.jpg" alt="owlcat" loading="lazy" width="400" height="600">
+            </picture>
+            <picture>
+                <img src="images/jpg2.jpg" alt="deep frog" loading="lazy" width="400" height="600">
+            </picture>
+        </div>
+    </main>
+    <footer>
+        <p class="copyright">© <span id="cyear"></span> | Volodymyr Druchok | Alberta, Canada</p>
+        <p class="modifiedDate" id="lastModified"></p>
+       </footer> 
+</body>
+</html>

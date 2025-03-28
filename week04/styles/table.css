@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+}
+
+:root {
+    --border: 1px solid hsla(0,0%,33%,.3);
+}
+
+.heading {
+    background-color: rgb(100, 245, 245);
+}
+
+table {
+	margin: 10px auto;
+	border: var(--border);
+	box-shadow: 0 0 10px rgb(75, 255, 255); 
+	border-collapse: collapse;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    color: rgb(0, 67, 9);
+    font-size: .85rem;
+}
+
+th, td {
+	padding: 7px 15px;
+	border: var(--border);
+    text-align: center;
+}
+
+tbody, thead {
+    background-color: rgb(132, 249, 249);   
+}
+
+tbody tr:nth-child(even) {
+	background-color: rgb(10, 252, 252);
+}
