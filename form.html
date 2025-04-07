@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Volodymyr Druchok">
+    <meta name="description" content="WDD 131 – Dynamic Web Fundamentals - Volodymyr Druchok - Product Review Form">
+    <title>Product Review Form</title>
+
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+</head>
+<body>
+   <header>
+        <h1>Product Review</h1>
+   </header>
+   <main>
+    <form method="get" action="review.html">
+        <fieldset>
+            <label for="productSelect">Product Name*</label>
+            <select id="productSelect" name="product" required>
+                <option value="" disabled selected>Select a Product...</option>
+            </select>
+
+            <label>Overall Rating</label>
+            <div class="stars">
+                <input type="radio" id="fivestar" name="stars" value="5" required><label for="fivestar"></label>
+                <input type="radio" id="fourstar" name="stars" value="4" required><label for="fourstar"></label>
+                <input type="radio" id="threestar" name="stars" value="3" required><label for="threestar"></label>
+                <input type="radio" id="twostar" name="stars" value="2" required><label for="twostar"></label>
+                <input type="radio" id="onestar" name="stars" value="1" required><label for="onestar"></label>
+            </div>
+            
+            <label for="dateInstalled">Date of Installation*</label>
+            <input type="date" id="dateInstalled" name="installed" required>
+
+            <label>Which features did you find useful in the product?</label>
+            <span id="applicable">(Check all that apply)</span>
+            <label><input id="durability" type="checkbox" name="durability" value="yes"> Durability</label>
+            <label><input id="easeofuse" type="checkbox" name="easeofuse" value="yes"> Ease of Use</label>
+            <label><input id="performance" type="checkbox" name="performance" value="yes"> Performance</label>
+            <label><input id="design" type="checkbox" name="design" value="yes"> Design</label>
+            
+            
+            <label for="writtenreview">Write a Review:</label>
+            <textarea id="writtenreview" name="writtenreview" placeholder="Your review here..."></textarea>
+
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Jane Doe">
+
+        </fieldset>
+
+        <input type="submit" value="Finish Review">
+    </form>
+   </main>
+   <footer>
+    <p class="copyright">© <span id="cyear"></span> | Volodymyr Druchok | Alberta, Canada</p>
+    <p class="modifiedDate" id="lastModified"></p>
+   </footer>  
+</body>
+</html>

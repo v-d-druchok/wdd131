@@ -1,0 +1,125 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "EB Garamond", serif;
+    background-color: rgb(123, 255, 134);
+}
+
+header {
+	background-color: rgb(55, 255, 71);
+	padding: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 30px rgb(0, 109, 9);
+}
+
+main {
+    max-width: 400px;
+    margin: 2rem auto;
+}
+
+fieldset {
+    background-color: rgb(55, 255, 71);
+    justify-items: left;
+    margin: 2rem 0;
+    border: 1px solid rgb(0, 31, 0);
+    border-radius: 15px;
+    padding: 0.5rem 20px 2% 25px;
+}
+
+label {
+    display: block;
+    padding-top: 1.25rem;
+    color: #000500;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+input[type="date"], 
+select,
+textarea,
+input[type="text"] 
+{
+    background-color: #aaffac;
+    display: block;
+    border: 1px solid #9dfc9f;
+    border-radius: 5px;
+    padding: 0.75rem;
+    margin-top: 0.2rem;
+    color: #000000;
+    width: 100%;
+    max-width: 400px;
+}
+
+input[type="submit"] {
+    border: none;
+    background-image: linear-gradient(#40e743, rgb(10, 82, 10));
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: .8rem;
+    width: 96%;
+    max-width: 400px;
+    margin: -1rem 2% 2rem 2%;
+}
+
+
+input[type="radio"] {
+	display: none;
+	position: relative;
+	caret-color: rgba(0, 0, 0, 0);
+}
+
+.stars {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: left;
+}
+
+.stars > label {
+	color: rgb(5, 64, 1);
+	width: 30px;
+	height: 30px;
+	font-size: 2rem;
+	margin-left: 5px;
+	display: flex;
+	align-items: center;
+	caret-color: rgb(0, 0, 0);
+}
+
+.stars > label:hover {
+	color: #467e4f;
+}
+
+.stars > label::before {
+	content: "\2606";
+}
+
+.stars input:checked ~ label::before {
+	content: "\2605";
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(55, 255, 71);
+    padding: 30px 30px 40px;
+    box-shadow: 0 0 30px rgb(0, 109, 9);
+}
+
+.copyright {
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.modifiedDate {
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    padding: 3px;
+}
