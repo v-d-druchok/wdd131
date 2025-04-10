@@ -64,7 +64,7 @@ section {
 	background-color: rgba(78, 255, 93, 0.918);
 	padding: 1rem; 
 	border: 1px solid rgb(0, 31, 0);
-	box-shadow: 0 0 10px rgb(0, 179, 15);
+	box-shadow: 0 0 10px #00b30f;
 	justify-items: center;
 }
 
@@ -109,7 +109,7 @@ nav a {
 
 nav a:hover {
 	text-decoration: underline double;
-	background-color: rgb(78, 196, 167);
+	background-color: #4ec4a7;
 	color: #000;
 }
 
@@ -121,10 +121,10 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(55, 255, 71);
+    background-color: #37ff47;
     padding: 30px 30px 40px;
     margin-top: 65px;
-    box-shadow: 0 0 30px rgb(0, 109, 9);
+    box-shadow: 0 0 30px #006d09;
 }
 
 .copyright {
