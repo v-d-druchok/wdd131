@@ -64,7 +64,7 @@ section {
 	background-color: rgba(78, 255, 93, 0.918);
 	padding: 1rem; 
 	border: 1px solid rgb(0, 31, 0);
-	box-shadow: 0 0 10px #00b30f;
+	box-shadow: 0 0 10px rgb(0, 179, 15);
 	justify-items: center;
 }
 
