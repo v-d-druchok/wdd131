@@ -8,6 +8,14 @@
     --paragraph-font: "Cormorant Garamond", serif;;
 }
 
+body {
+    background-color: var(--secondary-color);
+}
+
+main {
+    display: grid;
+}
+
 * {
     margin: 0 auto;
     text-align: center;
@@ -55,6 +63,19 @@ h1 {
 	text-align: center;
 }
 
+.about {
+    width: 98%;
+    border: 2px solid var(--accent-color);
+    background-color: var(--primary-color);
+    margin: 20px;
+    font-size: 30px;
+    box-shadow: 0 0 10px var(--accent-color);
+}
+
+.about p {
+    font-size: 20px;
+}
+
 .navigation a:hover {
 	font-weight: 700;
 	text-decoration: underline;
@@ -93,6 +114,7 @@ main {
     grid-template-columns: 1fr;
     justify-items: center;
     align-items: center; 
+    align-items: start;
 }
 
 .hero {
@@ -107,6 +129,7 @@ section {
     max-width: 75%;
     max-height: 30%;
     padding: 20px;
+    margin-top: 100px;
 }
 
 section h2, section p {
