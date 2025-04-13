@@ -94,7 +94,7 @@ const nutritionSpecify = [
         qtype: "2-3"      
     },
     
-];
+]; 
 
 topicSelect.addEventListener('change', function() {
     extraSelect.innerHTML = "";
