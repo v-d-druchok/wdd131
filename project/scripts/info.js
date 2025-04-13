@@ -23,3 +23,37 @@ section.innerHTML += `
         Although the standard people and the four-day people + full body are perfectly good splits for that kind of schedule.
     </p>
 `;
+
+const images = [
+    {
+        name: "Before",
+        imageUrl: "images/before.webp"
+    },
+    {
+        name: "After",
+        imageUrl: "images/after.webp"
+    },
+];
+
+
+function createResults(images) {
+    document.querySelector(".results").innerHTML = "";
+    images.forEach(image => {
+        let card = document.createElement("section");
+        let title = document.createElement("p")
+        let img = document.createElement("img");
+
+        title.innerHTML = `${image.name}`;
+
+        img.setAttribute("src", image.imageUrl);
+        img.setAttribute("alt", `${image.name}`);
+        img.setAttribute("loading", "lazy");
+
+        card.appendChild(title);
+        card.appendChild(img);
+
+        document.querySelector(".results").appendChild(card);
+    });
+}
+
+document.addEventListener("DOMContentLoaded", () => { createResults(images);});

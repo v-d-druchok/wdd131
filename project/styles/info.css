@@ -35,6 +35,10 @@ h1 {
     border-bottom: 4px solid var(--secondary-color);
 }
 
+header {
+    border-bottom: 2px solid var(--accent-color);
+}
+
 .navigation {
     display: none;
     flex-direction: column; 
@@ -129,6 +133,29 @@ footer {
     background-color: var(--primary-color);
     padding: 30px 30px 40px;
     margin-top: 65px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.result {
+    margin-top: 10px;
+    width: 100%;
+    background-color: var(--primary-color);
+    padding-bottom: 40px;
+}
+
+.results {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.results section {
+    margin: 0px;
+    border: 0;
 }
 
 body {

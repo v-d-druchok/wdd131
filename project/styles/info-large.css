@@ -27,24 +27,25 @@
     }
 
 	main {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
+		display: flex;
+		flex-direction: column;
 	}
 
 	section {
-		width: 50%;
+		width: 98%;
 		height: auto;
 	}
 
-	.one, .four {
-		grid-column: 1 / 3;
+	img {
+		width: 400px;
+		height: auto;
+	}
+	
+	.result {
 		width: 98%;
 	}
 
-	.two, .three {
-		width: 85%;
+	.results section {
+		margin: 40px;
 	}
-
-
-
 }
