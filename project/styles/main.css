@@ -50,7 +50,7 @@ h1 {
 	background-color: var(--secondary-color);
     padding: 8px;
 }
-
+ 
 .navigation.open {
     display: block;
 }
