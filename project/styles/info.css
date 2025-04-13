@@ -119,6 +119,7 @@ section {
     height: auto;
     background-color: var(--primary-color);
     border: 1px solid var(--accent-color);
+    margin-top: 10px;
 }
 
 footer {
