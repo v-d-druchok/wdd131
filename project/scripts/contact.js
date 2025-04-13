@@ -93,7 +93,7 @@ const nutritionSpecify = [
         name: "other",
         qtype: "2-3"      
     },
-    
+     
 ]; 
 
 topicSelect.addEventListener('change', function() {
