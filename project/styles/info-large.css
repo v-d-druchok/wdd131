@@ -45,6 +45,10 @@
 		width: 98%;
 	}
 
+	.result p {
+		font-size: 20px;
+	}
+
 	.results section {
 		margin: 40px;
 	}

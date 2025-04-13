@@ -54,7 +54,7 @@ header {
 
 .navigation a {
 	display: block;
-	color: var(--accent-color);
+	color: var(--primary-color);
 	padding: 0.75rem;
 	text-decoration: none;
 	text-align: center;
@@ -145,6 +145,10 @@ img {
     width: 100%;
     background-color: var(--primary-color);
     padding-bottom: 40px;
+}
+
+.result p {
+    font-size: 15px;
 }
 
 .results {
